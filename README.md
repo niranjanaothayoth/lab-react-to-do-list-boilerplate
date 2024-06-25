@@ -1,57 +1,49 @@
-![Logo-nav](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png)
+# TodoGenie (Todo List Web Application)
 
-## Learning Goals:
-1. The prime objective of this lab is to understand how CRUD (create read update delete) operations can be achieved
-using ReactJs.
-2. The second important objective of this lab is to understand the use of `components`.
-3. Finally, this exercise will also focus on `props` and `states` (states using class component).
+A responsive Todo List web application developed using React.js and Tailwind CSS. This application allows users to add, delete, and update tasks, enhancing productivity and ensuring efficient task management.
 
-You can consider this as a lab/project which covers everything that we have learned by now.
+## Key Features
 
+- **Task Management**: Users can add new tasks, delete existing ones, and update task details seamlessly.
+- **State Management**: Utilized Context API for effective state management and component communication.
+- **Responsive Design**: Built with Tailwind CSS, the app is visually appealing and responsive across various devices.
+- **Data Persistence**: Integrated Local Storage to ensure tasks are saved across browser sessions, preventing data loss on refresh or tab closure.
 
-## Getting started
+## Demo
 
-1. Fork this repo
-2. Clone this repo
+Check out the live demo of the application [here](https://todogenie.vercel.app).
 
-Whenever you create a first significant change, you should make your first commit.
+## Technologies Used
+- React.js: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- Vite: A build tool that provides a fast and optimized development environment.
+- Context API: For state management and component communication.
+- Local Storage: For persisting user data across sessions.
 
-3. Follow these [guidelines to add, commit and push changes](https://github.com/Kalvium-Program/general-guidelines-labs-project-builders).
+## Installation
 
-### Introduction:
-For this exercise, the aim is just to see how simple CRUD operations can be performed. 
-If you are not familiar with what CRUD is or you need some revision -- you can visit [this link](https://www.freecodecamp.org/news/crud-operations-explained/), to have better understanding.
+Follow these steps to run the project locally:
 
-To-do-list is one of the simplest idea, where CRUD can be easily observed. For eg:
-1. If I want to add new action item for a particular day --> I can `create` an item and add to my to-do-list.
-2. Once the action item is created then I can `read` that action item -> anytime I open my to-do-list application.
-3. I can even `update` the action item - if needed. For eg: if I wanted to write `Buy Mac`, but by mistake I wrote `Buy Windows`, then I should be able to update this current action item.
-4. Once the action item is achieved - then I should be able to `delete` that particular action item.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-github-username/todo-list-web-app.git
+2. **Navigate to the project directory:**
+   ```bash
+   cd TodoApp
+3. **Install the dependencies:**
+   ```bash
+   npm install
+4. **Run the application:**
+   ```bash
+   npm run dev
+   ```
+   The app will be running at `http://localhost:5173`.
 
-So, with a simple to-do-list app, we can achieve all the `CRUD` operations.
+## Acknowledgements
+- [React.js](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [vite](https://vitejs.dev/)
+- [vercel](https://vercel.com/)
 
-### Steps to follow:
-
-1. Setup the project by using the following command ~ `npm create vite@latest kalvium-pronote`. Then choose **React** and **javascript**.
-2. Follow each segment given below - in order to get an idea of how the app should work. 
-   **Note:** This lab is not focussing much on the styling part -- but feel free to add styles to your project.
-   If you want - you can even mimic the design as shown below:
-   
- ![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/todo.png)
-   
-
-### Create:
-
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/add-react-todo.gif)
-
-### Update:
-
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/update-react-todo.gif)
-
-For the update functionality - you can even try creating a button for it. (Upon clicking the button, you should be able to edit the item.)
-
-### Delete:
-
-![](https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/delete-react-todo.gif)
-
-
+## Contact
+Connect with me on LinkedIn : [Priyanshu Trivedi ↗](https://www.linkedin.com/in/priyanshu-trivedi/)
